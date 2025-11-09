@@ -29,7 +29,12 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:8080", "http://localhost:5173", "http://localhost:3000")
+        policy.WithOrigins(
+                "http://localhost:8080",
+                "http://localhost:5173",
+                "http://localhost:3000",
+                "https://*.vercel.app") // Allow Vercel deployments
+              .SetIsOriginAllowedToAllowWildcardSubdomains()
               .AllowAnyMethod()
               .AllowAnyHeader()
               .AllowCredentials();
