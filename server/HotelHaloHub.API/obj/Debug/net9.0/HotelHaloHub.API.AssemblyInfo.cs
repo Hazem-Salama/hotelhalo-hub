@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelHaloHub.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f0c40e116e6b37c721aea32b1d9b19a76dc512")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d069d93e57c3ba58fa854283098e53ac46e5913")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelHaloHub.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelHaloHub.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
